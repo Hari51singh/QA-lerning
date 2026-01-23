@@ -11,7 +11,7 @@ This repository contains my QA learning journey.
 - Git & GitHub basics
 
 ## Tools
-- Jira
+- Linear
 - Postman
 - BrowserStack
 
