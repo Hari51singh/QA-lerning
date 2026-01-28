@@ -21,3 +21,12 @@ Steps:
 
 Expected Result:
 - Error message should be displayed
+## Negative & Security Test Cases
+
+| ID | Scenario | Test Data | Expected Result |
+|----|--------|-----------|----------------|
+| TC-09 | Empty email & password | "", "" | Error message displayed |
+| TC-10 | SQL Injection | ' OR 1=1 | Login should fail |
+| TC-11 | XSS input | <script>alert(1)</script> | Input sanitized |
+| TC-12 | Leading spaces | " user@email.com " | Spaces trimmed |
+| TC-13 | Long input | 256+ characters | Validation error |
