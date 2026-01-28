@@ -30,3 +30,10 @@ Expected Result:
 | TC-11 | XSS input | <script>alert(1)</script> | Input sanitized |
 | TC-12 | Leading spaces | " user@email.com " | Spaces trimmed |
 | TC-13 | Long input | 256+ characters | Validation error |
+
+
+## Additional Negative Scenarios (QA Practice)
+
+- Login with only email (password empty)
+- Login with only password (email empty)
+- Copy-paste password disabled check
